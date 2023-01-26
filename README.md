@@ -1,5 +1,5 @@
 # autocompletion
-Search module with auto-completion
+Javascript search module with auto-completion
 
 ## Task's subject
 Create an “autocompletion” database. In this database, create a table that has information on the theme of your choice (animals, celebrities,
