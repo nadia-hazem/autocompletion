@@ -44,7 +44,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h5 class="text-uppercase text-white mb-0">Formation</h5>
                     <ul class="list-unstyled">
-                        <li><a class="text-white" href="https://laplateforme.io" target="_blank"><img style="padding-bottom: 10px" src="./assets/img/logo_laplateforme_footer" width="200" alt="logo laplateforme"></a></li>
+                        <li><a class="text-white" href="https://laplateforme.io" target="_blank"><img style="padding-bottom: 10px" src="./assets/img/logo_laplateforme_footer.svg" width="200" alt="logo laplateforme"></a></li>
                         <li class="text-white"><em>Formation Web Dev La Plateforme_ 2022/23</em></li>
                     </ul>
                 </div>
