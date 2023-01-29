@@ -17,47 +17,48 @@ require_once 'includes/header.php';
         <section class="row">
             <div class="col-md-6 mx-auto">
                 <div class="card mx-auto" style="max-width: 50rem;">
-                    <div class="card-header">Arbre :</div>
-                    <div class="card-body bg-herb">
-                        <h4 class="card-title text-center"><?= $result[0]['vernaculaire'] ?></h4>
-                        <h3 class="card-text text-center mb-3"><?= $result[0]['latin'] ?></h3>
+                    <div class="d-flex justify-content-between card-header">
+                        <h3 class="card-title text-center text-info"><?= $result[0]['vernaculaire'] ?></h3>
+                        <h3 class="card-text text-center text-info mb-3"><?= $result[0]['latin'] ?></h3>
+                    </div>
+                    <div class="card-body bg-herb">                        
                         <table>
                             <tbody>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-tree"></i>Famille</th>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['famille'] ?></td>
+                                    <td class="text-light col-9 pb-2"><?= $result[0]['famille'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-globe"></i>Origine</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['origine'] ?></td>
+                                    <td class="text-light col-9 pb-2"><?= $result[0]['origine'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-arrow-up"></i>Hauteur</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['hauteur'] ?> mètres</td>
+                                    <td class="text-light col-9 pb-2"><?= $result[0]['hauteur'] ?> mètres</td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-infinity"></i>Longévité</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['longevite'] ?> ans</td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['longevite'] ?> ans</td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-leaf"></i>Feuilles</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['feuille'] ?></td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['feuille'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-layer-group"></i>Sol</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['sol'] ?></td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['sol'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fa fa-lemon"></i>Fruit</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['fruit'] ?></td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['fruit'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fa fa-scissors"></i>Taille</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['taille'] ?></td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['taille'] ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row" class="col-3 pb-2"><i class="fas fa-info"></i>Infos</td>
-                                    <td class="text-right col-9 pb-2"><?= $result[0]['info'] ?></td>
+                                    <td class="text-white col-9 pb-2"><?= $result[0]['info'] ?></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -11,6 +11,8 @@ a { color: white;}
 
 a:hover { color: #002E56;}
 
+.text-info { color: #002E56!important;}
+
 .fas, .fa { padding-right: 0.5rem;}
 li {
     list-style-type: none;
