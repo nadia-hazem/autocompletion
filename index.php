@@ -1,29 +1,33 @@
-<?php require_once 'includes/dbconnect.php'; ?>
+<?php
+$title = "Accueil";
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autocompletion</title>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+require_once 'includes/header.php';
+?>
 
-</head>
-<body>
-    <?php require_once 'includes/header.php'; ?>
+<main class="container mt-5">
+    <section class="row">
 
-    <h1>les principaux conifères de Provence</h1>
+        <div class="col-md-6 m-auto">
+            
+            <h3 class="text-center mb-3">Les arbres de Provence</h3>
 
-    <form>
-        <input type="text" id="search-input-index" name="searchInput" placeholder="Rechercher un arbre">
-        <input type="submit" value="Rechercher">
-        <select id="result-selector"></select>
-    </form>
+            <form class="d-flex" method="get" action="recherche.php">
+                <input id="search" class="form-control mx-sm-2" type="text" name="search" placeholder="Rechercher...">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            
+            <ul id="matchList"></ul>
+            <ul id="matchList2"></ul>
 
-    <div id="result"></div>
+        </div>
 
-    <script src="assets/js/script.js"></script>
+    </section>
+</main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
+
 </html>
