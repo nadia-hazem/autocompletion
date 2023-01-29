@@ -1,1 +1,31 @@
-/* FONTAWSOME*/
+body {
+    background: url(../img/bg.png) no-repeat center center fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 { color: white;}
+
+th { color: #002E56;}
+
+a { color: white;}
+
+a:hover { color: #002E56;}
+
+.fas, .fa { padding-right: 0.5rem;}
+li {
+    list-style-type: none;
+    color: #002E56;
+    font-weight: 600;
+}
+.card {
+    --bs-card-border-width: 0;
+}
+.navbar {
+    --bs-navbar-toggler-focus-width: 0.1rem;
+}
+.blueimg {
+    background: url(../img/blue.jpg) no-repeat bottom center;
+}
+.bg-herb {
+    background: #507B90!important;
+}

@@ -1,6 +1,4 @@
-<?php
-
-require_once('./assets/php/db.php');
+<?php require_once('./assets/php/db.php');
 
 $search =  htmlspecialchars($_GET['search']) . "%";
 
@@ -14,36 +12,37 @@ $title = "Recherche : " . htmlspecialchars($_GET['search']);
 require_once 'includes/header.php';
 ?>
 
-<main class="container mt-5">
-    <section class="row">
+    <main class="container min-vh-100 justify-content-center align-items-center">
+        <section class="row ">
 
-        <div class="col-md-6 m-auto">
+            <div class="col-md-6 m-auto">
 
-            <h3 class="text-center mb-3">Votre recherche</h3>
+                <h3 class="text-center mb-3">Votre recherche</h3>
 
-            <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Arbres</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <?php 
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col text-white">Arbres :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php 
 
-                        foreach ($result as $arbre) {
-                            
-                            echo "<tr>
-                                <th scope='row'><a href='element.php?search=" . $arbre['vernaculaire'] . "'>" . $arbre['latin'] . $arbre['famille'] . "</a></th>
-                            </tr>";
-                        }
-                    ?>
-                </tbody>
+                            foreach ($result as $arbre) {
+                                
+                                echo "<tr>
+                                    <th scope='row'><a href='element.php?search=" . $arbre['vernaculaire'] . "'>" . $arbre['latin'] . $arbre['famille'] . "</a></th>
+                                </tr>";
+                            }
+                        ?>
+                    </tbody>
+                </table>
+            </div>
 
-        </div>
-
-    </section>
-</main>
-
+        </section>
+    </main>
+    
+    <?php require_once 'includes/footer.php'; ?>
 </body>
 
 </html>

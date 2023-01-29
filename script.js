@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", event => {
 
             // Réduit le nombre de résultats
             const html = matches.slice(0, 3).map(match => `
-                <li class="card card-body text-white bg-secondary mb-1">
+                <li class="card card-body bg-dark mb-1">
                     <a class="text-decoration-none link-light" href="element.php?search=${match.vernaculaire}">${match.vernaculaire} ${match.latin}</a>
                 </li>
             `
