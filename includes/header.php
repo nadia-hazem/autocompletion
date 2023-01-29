@@ -28,7 +28,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
+            <div class="container-fluid justify-content-between">
                 <img src="assets/img/tree.svg" alt="logo" width="30" height="24" class="d-inline-block align-text-top">
                 <a class="navbar-brand pl-5" href="index.php">Les arbres de Provence</a>
 
@@ -47,6 +47,24 @@
                         </li>
                     </ul>                    
                 </div>
+
+                <!-- Section Social media -->
+                <section class="m-1">
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating align-middle" href="https://www.linkedin.com/in/pictelle/" target="_blank" role="button" title="Mon LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating align-middle" href="https://github.com/nadia-hazem" target="_blank" role="button" title="Mon GitHub"><i class="fab fa-github"></i></a>
+
+                    <!-- Wordpress -->
+                    <a class="btn btn-outline-light btn-floating align-middle" href="https://pictelle.com" target="_blank" role="button"><i class="fab fa-wordpress" title="Mon WordPress"></i></a>
+
+                    <!-- Resume -->
+                    <a class="btn btn-outline-light btn-floating align-middle" href="https://nadia-hazem.students-laplateforme.io/" target="_blank" role="button" title="CV/Resume"><i class="fas fa-file"></i></a>
+
+                </section>
+                <!-- /Section Social media -->
             </div>
         </nav>
     </header>
