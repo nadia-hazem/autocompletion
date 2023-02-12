@@ -20,6 +20,9 @@
     <!-- JS script -->
     <script type="text/javascript" src="script.js"></script>
 
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/autocompletion/assets/img/favicon.png"/>    
+
     <title><?= $title ?></title>
 
 </head>
