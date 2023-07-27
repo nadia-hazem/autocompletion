@@ -22,4 +22,10 @@ start with what the user writes)
 - Second: the results that contain the user's search
 
 These two parts must be in the same list, but a small separation must
-be in between.
+be in between.  
+
+---
+
+![2 listes de recherche](https://github.com/nadia-hazem/autocompletion/blob/4a99f02d9cf9a8262bff0aa94b23d86ba6cbca96/assets/img/img1.png)
+![fiche individuelle](https://github.com/nadia-hazem/autocompletion/blob/4a99f02d9cf9a8262bff0aa94b23d86ba6cbca96/assets/img/img2.png)
+
